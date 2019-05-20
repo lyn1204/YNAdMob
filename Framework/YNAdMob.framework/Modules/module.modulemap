@@ -1,0 +1,6 @@
+framework module YNAdMob {
+  umbrella header "YNAdMob.h"
+
+  export *
+  module * { export * }
+}
