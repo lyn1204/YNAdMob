@@ -28,17 +28,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- * @brief 预加载激励视频
+ * @brief 显示激励视频
  * AdUnitID : 广告id
  */
--(void)preloadRewardVideowithAdUnitID:(NSString *)AdUnitID;
+-(void)showRewardVideowithAdUnitID:(NSString *)AdUnitID;
 
-
-/**
- * @brief 显示激励视频
- * complateBlock : 是否正常展示
- */
--(void)showRewardVideo:(void (^)(BOOL success))complateBlock;
 
 @end
 
