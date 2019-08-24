@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YNAdMob"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "Test For YNAdMob."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/lyn1204/YNAdMob.git", :tag => "1.0.4" }
+  spec.source       = { :git => "https://github.com/lyn1204/YNAdMob.git", :tag => "1.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
