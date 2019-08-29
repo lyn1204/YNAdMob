@@ -15,12 +15,18 @@ NS_ASSUME_NONNULL_BEGIN
 +(YNAdMobBannerView*)shareInstance;
 
 /**
- * @brief 添加谷歌插屏广告
+ * @brief 添加谷歌横幅广告
  * AdUnitID : 广告id
  * rootViewController : 展示广告的根视图
  * attribute : 广告在根视图展示的位置
  */
 -(void)addBannerAdUnitID:(NSString *)AdUnitID rootViewController:(UIViewController *)rootViewController attribute:(NSLayoutAttribute)attribute;
+
+
+/**
+ * @brief 移除谷歌横幅广告
+ */
+-(void)removeBannerAd;
 
 @end
 
