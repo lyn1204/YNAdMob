@@ -18,6 +18,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void)YNAdMobRewardVideoWillRewardUserWithReward:(BOOL)willReward;
 
+/**
+ * @brief 激励视频是否请求成功
+ * willReward : YES:请求成功  NO:请求失败
+ */
+-(void)YNAdMobRewardVideoDidLoad:(BOOL)success;
+
 @end
 
 @interface YNAdMobRewardVideo : NSObject
